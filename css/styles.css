@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color:#FFFFFF 100%;
+    font-size: 16px;
+    
+}
+
+.contenedor-header {
+    background-color: #FFFFFF 100%;    
+    margin: 2.5% 0.9% 0.6% 3.9%;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.contenedor-header .header {    
+    margin:20px;
+    width: 50%;
+    height: 50%;
+}
+
+.contenedor-header .header .logo {
+    margin-left: 50px;
+    width: 36px;
+    height: 36px;
+} 
+
+.navbar {    
+    margin:20px;
+    width: 50%;
+    height: 50%;
+    
+}
+
+
+
+.navbar .nav-link {    
+    display: flex;
+    justify-content: center;    
+    margin: 15px;
+    color: #060A24;
+    text-decoration: none;
+}
+
+ul {
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+#hello {
+    text-align: initial;    
+    margin-left: 13.9%;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hello #titulo {
+    font-size: 40px;
+}
+
+#hello h6 {
+    margin-bottom: 60px;
+    
+    
+}
+
+ul .conoce-mas {
+    background-color: #00F3BB;
+    color:#FFF;
+    text-decoration: none;
+    margin-top: 40%;
+    padding: 10px;
+        
+}
+
+#episodios {    
+    margin-top: 100px;
+    margin-left: 50px; 
+
+}    
+    
+#episodios .imagenes {
+  display: flex;
+  flex-wrap: wrap;  
+  margin-top: 20px;  
+   
+}
+
+#episodios h1 {
+    margin-top: 300px;
+    margin-left: 10.5%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+    z-index: 1;
+    position: relative;  
+}
+
+#episodios .imagenes #imagen-1 {
+    margin-left: 6.9%;
+    padding: 10px;   
+    height: 200px;
+    width: 500px;
+    z-index:1;
+    display: flex;
+    
+    
+    
+}
+
+#episodios .imagenes #imagen-2 {    
+    margin-left: 6.9%;
+    padding: 10px;     
+    height: 200px;
+    width: 500px;
+    z-index:1;    
+    display: flex;
+    
+    
+}
+
+#episodios .imagenes #imagen-3 {   
+    margin-left: 6.9%;
+    padding: 10px; 
+    height: 200px;
+    width: 500px;
+    z-index:1;
+    display: flex;
+    
+    
+    
+}
+
+#episodios .imagenes #imagen-4 {
+    margin-left: 6.9%;
+    padding: 10px; 
+    height: 200px;
+    width: 500px;
+    z-index:1;
+    display: flex;
+    
+    
+}
+
+.skewed {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    background:blue; 
+    z-index: 0;
+    transform: skewY(-10deg);
+    transform-origin: top left;
+    
+  }
+
+
+  #de-donde {      
+      display: flex;
+      flex-wrap: wrap;
+      
+          
+  } 
+
+  .imagen-phone {
+    margin-left: 13.0%;
+    padding: 12px; 
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+    position: relative;
+    
+}
+
+   .venimos  {
+    height: 19%;       
+    margin-left: 60%;
+    margin-bottom: 100px;     
+    display: flex;
+    width: 30%;
+     
+}
+
+.venimos h2 {
+    
+}
+
+
+   
+   
+
+#invitados {
+    text-align: initial;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+#invitados h1{
+    margin-bottom: 100px;
+    margin-left: 200px;
+}    
+
+#invitados .imagenes-2 #imagen-1 {
+    width: 400px;
+    height: 300px;
+}
+
+#invitados .imagenes-2 #imagen-2 {
+    width: 400px;
+    height: 300px;
+}
+
+#invitados .imagenes-2 #imagen-3 {
+    width: 400px;
+    height: 300px;
+}
+
+#invitados .imagenes-2 #imagen-4 {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+#invitados .imagenes-2 #imagen-5 {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+#invitados .imagenes-2 #imagen-6 {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 200px;
+}
+ 
+ 
+ 
+   
+  
