@@ -6,8 +6,7 @@
 body {
     margin: 0;
     background-color:#FFFFFF 100%;
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
 
 .contenedor-header {
@@ -15,6 +14,7 @@ body {
     margin: 2.5% 0.9% 0.6% 3.9%;
     display: flex;    
     justify-content: space-between;
+    display: flex;
 }
 
 .contenedor-header .header {    
@@ -27,16 +27,15 @@ body {
     margin-left: 50px;
     width: 36px;
     height: 36px;
+    display: flex;
 } 
 
 .navbar {    
     margin:20px;
     width: 50%;
     height: 50%;
-    
+    display: flex;    
 }
-
-
 
 .navbar .nav-link {    
     display: flex;
@@ -46,29 +45,30 @@ body {
     text-decoration: none;
 }
 
-ul {
-    
+.nav-link:hover {
+    color: blue;
+    margin-left: 13px;
+}
+
+ul {    
     display: flex;
     flex-direction: row;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 #hello {
     text-align: initial;    
     margin-left: 13.9%;
     margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif;}
 
 #hello #titulo {
     font-size: 40px;
 }
 
 #hello h6 {
-    margin-bottom: 60px;
-    
-    
+    margin-bottom: 60px;    
 }
 
 ul .conoce-mas {
@@ -76,21 +76,18 @@ ul .conoce-mas {
     color:#FFF;
     text-decoration: none;
     margin-top: 40%;
-    padding: 10px;
-        
+    padding: 10px;        
 }
 
 #episodios {    
     margin-top: 100px;
     margin-left: 50px; 
-
 }    
     
 #episodios .imagenes {
   display: flex;
   flex-wrap: wrap;  
-  margin-top: 20px;  
-   
+  margin-top: 20px;    
 }
 
 #episodios h1 {
@@ -108,10 +105,7 @@ ul .conoce-mas {
     height: 200px;
     width: 500px;
     z-index:1;
-    display: flex;
-    
-    
-    
+    display: flex;    
 }
 
 #episodios .imagenes #imagen-2 {    
@@ -121,8 +115,6 @@ ul .conoce-mas {
     width: 500px;
     z-index:1;    
     display: flex;
-    
-    
 }
 
 #episodios .imagenes #imagen-3 {   
@@ -131,10 +123,7 @@ ul .conoce-mas {
     height: 200px;
     width: 500px;
     z-index:1;
-    display: flex;
-    
-    
-    
+    display: flex;     
 }
 
 #episodios .imagenes #imagen-4 {
@@ -143,66 +132,65 @@ ul .conoce-mas {
     height: 200px;
     width: 500px;
     z-index:1;
-    display: flex;
-    
-    
+    display: flex;      
 }
 
 .skewed {
     position: absolute;
-    top: 100%;
+    top: 90%;
     bottom: 0;
     right: 0;
     left: 0;
     width: 100%;
-    height: 130%;
+    height: 120%;
     background:blue; 
     z-index: 0;
-    transform: skewY(-10deg);
+    transform: skewY(-8deg);
     transform-origin: top left;
-    
+    min-width: 620px;    
   }
 
-
   #de-donde {      
-      display: flex;
-      flex-wrap: wrap;
-      
-          
+    display: flex;
+    flex-direction: row;          
   } 
 
   .imagen-phone {
     margin-left: 13.0%;
-    padding: 12px; 
+    padding: 13px; 
     width: 400px;
     height: 600px;
     z-index: 1;
     position: relative;
-    
+    display: flex;   
 }
 
    .venimos  {
-    height: 19%;       
-    margin-left: 60%;
-    margin-bottom: 100px;     
+    margin-top: 12%;   
+    margin-left: 5%;        
     display: flex;
+    flex-direction: column;   
+    height: 100%;
     width: 30%;
-     
+    z-index: 1;     
 }
 
-.venimos h2 {
-    
+.venimos h2 {    
+    margin-bottom: 30px;
+    display: flex;
 }
 
-
+.venimos p {
+    margin-bottom: 20px;
+    display: flex;
+}
    
    
-
 #invitados {
     text-align: initial;
     margin-left: 100px;
     margin-top: 100px;
-    margin-bottom: 500px;
+    margin-bottom: 100px;     
 }
 
 #invitados h1{
@@ -213,37 +201,136 @@ ul .conoce-mas {
 #invitados .imagenes-2 #imagen-1 {
     width: 400px;
     height: 300px;
+    min-width: 100px;    
 }
 
 #invitados .imagenes-2 #imagen-2 {
     width: 400px;
     height: 300px;
+    min-width: 100px;    
 }
 
 #invitados .imagenes-2 #imagen-3 {
     width: 400px;
     height: 300px;
+    min-width: 100px;    
 }
+
 
 #invitados .imagenes-2 #imagen-4 {
     width: 400px;
     height: 300px;
-    margin-bottom: 200px;
+    min-width: 100px;    
 }
 
 #invitados .imagenes-2 #imagen-5 {
     width: 400px;
     height: 300px;
-    margin-bottom: 200px;
+    min-width: 100px;    
 }
 
 #invitados .imagenes-2 #imagen-6 {
     width: 400px;
     height: 300px;
-    margin-bottom: 200px;
+    min-width: 100px;    
+}
+
+#temas {
+    justify-content: center;    
+    height: 50%;
+}
+
+#temas h1 {
+    height: 10%;
+    width: 55%;
+    text-align: center;    
+}
+
+#temas .iconos {
+    color: #000;
+    display: flex;       
+    margin-top: 50px;
+    height: 10%;
+    width: 100%;
+    margin-left: 300px;    
+}
+
+#temas .iconos #icon1 {
+    display: flex;
+    flex-direction: column;    
+    margin-right: 2.7%;
+    margin-left: 2.7%;
+    padding: 10px;
+}
+
+#temas .iconos #icon2 {
+    width: 100px;
+    height: 100px;
+    margin-right: 2.7%;
+    margin-left: 2.7%;
+    padding: 10px;   
+}
+
+#temas .iconos #icon3 {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-right: 2.7%;
+    margin-left: 2.7%;
+    padding: 10px;
+}
+
+#temas .iconos #icon4 {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin-right: 2.7%;
+    margin-left: 2.7%;
+    padding: 10px;
+}
+
+#novedades {
+    height: 80%;
+    text-align: center;      
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+    
+}
+
+#novedades h1 {
+    margin-bottom: 60px;    
+    color: #FFFFFF;
+    z-index:1;
+    position: relative;
+    
+}
+
+ul .ultimas {
+    background-color: #00F3BB;
+    color:#FFF;
+    text-decoration: none;
+    margin-top: 80%;
+    padding: 10px; 
+    margin-left: 570px;  
+    z-index:1;
+    position: relative;    
 }
  
- 
+.skewed-2 {
+    position: absolute;
+    top: 500%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: blue; 
+    z-index: 0;
+    transform: skewY(-8deg);     
+    transform-origin: top left;
+    min-width: 620px;    
+  }
  
    
   
